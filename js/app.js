@@ -16,15 +16,21 @@ var compare = function(choice1, choice2) {
         alert("The result is a tie!")
     } else if (choice1 === "rock") {
         if (choice2 === "scissors") {
-            alert("rock wins")
+            alert("Rock wins")
         } else {
-            alert("paper wins")
+            alert("Paper wins")
         }      
     } else if (choice1 === "paper") {
         if (choice2 === "rock") {
-            alert("paper wins")
+            alert("Paper wins")
         } else {
-            alert("scissors wins")
+            alert("Scissors wins")
+        }
+    } else  if (choice1 === "scissors") {
+        if (choice2 === "rock") {
+            alert("Rock wins")
+        } else {
+            alert("Scissors wins")
         }
     }
 }
